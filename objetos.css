@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.rTable {
+  width: 800px;
+}
+.cabecalho {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  height: 40px;
+}
+#resultado tr:nth-child(even) {
+  background-color: rgba(195, 194, 194, 0.976);
+}
+
+#resultado {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+tbody {
+  height: 100px;
+}
